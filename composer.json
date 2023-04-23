@@ -1,0 +1,18 @@
+{
+    "name": "danal/gerar_pdf_php",
+    "autoload": {
+        "psr-4": {
+            "Danal\\GerarPdfPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danilo Ferreira",
+            "email": "dan.ali.ferreira@hotmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0",
+        "smalot/pdfparser": "^2.4"
+    }
+}
